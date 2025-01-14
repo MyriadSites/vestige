@@ -1,0 +1,219 @@
+body {
+	margin: 0;
+	background-color: #080808;
+	font-family: 'Open Sans', sans-serif; /*done*/
+}
+.container {
+	display: flex;
+	height: 100vh; /*done*/
+}
+
+.sidebar {
+	background-color: #000048;
+	width: 23.5%;
+	height: 100%; /*done*/
+}
+.main-content {
+	background-color: #000033;
+	width: 76.5%;
+	height: 100%;
+	position: relative; /*done*/
+}
+.logo {
+	position: absolute;
+	top: 1.5vw;
+	left: 1.5vw;
+	width: 3.5vw; /*done*/
+}
+.title {
+	position: absolute;
+	margin-left: 6.5vw;
+	margin-top: 2.1vw;
+	width: 50%;
+	color: #fff;
+	display: flex;
+	font-size: 1.8vw; /*done*/
+}
+.rectangle1 {
+	position: absolute;
+	top: 3.5%;
+	left: 2%;
+	width: 19.5%;
+	height: 0.5%;
+	background-color: #000033; /*done*/
+}
+.progressBar1 {
+	position: absolute;
+	top: 3.5%;
+	left: 2%;
+	height: 0.5%;
+	background-color: #2b2bbd;
+	width: 9.75%; /*done*/
+}
+.rectangle2 {
+	position: absolute;
+	bottom: 3.5%;
+	left: 2%;
+	width: 19.5%;
+	height: 0.5%;
+	background-color: #000033; /*done*/
+}
+.progressBar2 {
+	position: absolute;
+	bottom: 3.5%;
+	left: 2%;
+	height: 0.5%;
+	background-color: #2b2bbd;
+	width: 9.75%; /*done*/
+}
+.clock {
+	width: 70.2%;
+	height: 6vw;
+	border: 0.5vw solid;
+	border-radius: 2vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 3.6vw;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 14vh;
+	margin-left: 14.9%; /*done*/
+}
+.rectangles {
+	width: 71%;
+	height: 36%;
+	margin-top: 3.5vh;
+	margin-bottom: 0.5%; /*done*/
+}
+.firstLunch {
+	width: 17%;
+	height: 18vw;;
+	position: absolute;
+	text-align: center;
+	align-content: center;
+	color: #fff;
+	background-color: #000048;
+	border-radius: 10%;
+	font-size: 1.3vw;
+	left: 15%; /*done*/
+}
+.secondLunch {
+	width: 17%;
+	height: 18vw;
+	position: absolute;
+	text-align: center;
+	align-content: center;
+	color: #fff;
+	background-color: #000048;
+	border-radius: 10%;
+	font-size: 1.3vw;
+	left: 69.5%; /*done*/
+}
+.classTime {
+	left: 33.333%;
+	width: 21.6%;
+	height: 8.5vw;
+	position: absolute;
+	text-align: center;
+	align-content: center;
+	color: #fff;
+	background-color: #000048;
+	border-radius: 1.3vw;
+	font-size: 1.5vw; /*done*/
+}
+.months {
+	left: 56.2%;
+	width: 12%;
+	height: 8.5vw;
+	position: absolute;
+	text-align: center;
+	align-content: center;
+	color: #fff;
+	background-color: #000048;
+	border-radius: 1.3vw;
+	font-size: 1.3vw; /*done*/
+}
+.percent {
+	left: 33.333%;
+	width: 13.6%;
+	height: 8.5vw;
+	position: absolute;
+	text-align: center;
+	align-content: center;
+	color: #fff;
+	background-color: #000048;
+	border-radius: 1.3vw;
+	font-size: 1.3vw;
+	margin-top: 9.5vw; /*done*/
+}
+.timeAndDate {
+	left: 48.267%;
+	margin-top: 9.5vw;
+	width: 20%;
+	height: 8.5vw;
+	position: absolute;
+	text-align: center;
+	align-content: center;
+	color: #fff;
+	background-color: #000048;
+	border-radius: 1.3vw;
+	font-size: 1.3vw; /*done*/
+}
+.themes {
+	width: 70%;
+	height: 23.5%;
+	color: #fff;
+	font-size: 1.5vw;
+	display: grid;
+	place-items: center; /*done*/
+	margin-left: 15%;
+	margin-top: 6vh;
+}
+.themeIcons {
+	width: 65%;
+	margin-left: 2.5%; /*done*/
+}
+.themeText {
+	margin-top: -8%;
+	position: absolute; /*done*/
+}
+.footer {
+	margin-top: 11%;
+	position: absolute;
+	font-size: 1.5vw; /*done*/
+}
+.link {
+	color: white;
+	transition: 0.3s; /*done*/
+}
+
+	.link:hover {
+		color: #ff8800; /*done*/
+	}
+.leftIcon {
+	width: 12%;
+	opacity: 70%;
+	transition: 0.5s; /*done*/
+}
+	.leftIcon:hover {
+		opacity: 100% /*done*/
+	}
+.otherIcons {
+	width: 12%;
+	margin-left: 3.8%;
+	opacity: 70%;
+	transition: 0.5s; /*done*/
+}
+	.otherIcons:hover {
+		opacity: 100%; /*done*/
+	}
+.icons {
+	text-decoration: none; /*done*/
+}
+.betaMessage {
+	text-align: center;
+	color: white;
+	margin-top: 17%;
+	font-size: 1.5vw; /*done*/
+}
