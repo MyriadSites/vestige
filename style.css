@@ -227,17 +227,17 @@ body {
 .aboutHeader {
 	font-size: 4vw;
 	position: absolute;
-	margin-left: 1%;
+	margin-left: 3%;
 }
 .aboutText {
 	width: 50%;
 	position: absolute;
-	margin-left: 1%;
-	margin-top: 3vw;
+	margin-left: 2%;
+	margin-top: 4vw;
 }
 .aboutIcon {
-	width: 46%;
-	margin-left: 53%;
+	width: 40%;
+	margin-left: 4%;
 	position: absolute;
 }
 .aboutFooter {
