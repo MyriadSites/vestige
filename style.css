@@ -227,15 +227,15 @@ body {
 .aboutHeader {
 	font-size: 4vw;
 	position: absolute;
-	margin-left: 6%;
+	margin-left: 65%;
 	margin-top: 2vw;
 }
 .aboutText {
 	width: 50%;
 	position: absolute;
-	margin-left: 6%;
+	margin-left: 5%;
 	margin-top: 6vw;
-	text-indent: 2vw;
+	text-indent: 3vw;
 }
 .aboutIcon {
 	width: 40%;
