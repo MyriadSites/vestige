@@ -217,3 +217,30 @@ body {
 	margin-top: 17%;
 	font-size: 1.5vw; /*done*/
 }
+.aboutBody {
+	background-color: #fff;
+	font-family: "Barlow", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1.5vw;
+}
+.aboutHeader {
+	font-size: 4vw;
+	position: absolute;
+	margin-left: 1%;
+}
+.aboutText {
+	width: 50%;
+	position: absolute;
+	margin-left: 1%;
+	margin-top: 3vw;
+}
+.aboutIcon {
+	width: 46%;
+	margin-left: 53%;
+	position: absolute;
+}
+.aboutFooter {
+	margin-top: 85vh;
+	text-align: center;
+}
