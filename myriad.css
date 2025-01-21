@@ -1,5 +1,6 @@
 body {
     background-image: linear-gradient(to right top, #0b0040, #200a5a, #391075, #551490, #7316aa, #7d0c9d, #840390, #890084, #6d0358, #4d0b35, #2b0d1b, #000000);
+    height: 100vw;
 }
 .icon img {
     width: 300px;
