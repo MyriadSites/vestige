@@ -224,4 +224,13 @@ function updatePage() {
 	} else if (secondLunchPeriod == 9) {
 		document.getElementById('secondLunchP7').style.color = '#ff8800';
 	}
+
+	document.getElementById('box').addEventListener('change', function() {
+	    var icon = document.getElementById('icon');
+	    if (this.checked) {
+		icon.setAttribute('target', '_blank');
+	    } else {
+		icon.removeAttribute('target');
+	    }
+	});
 } setInterval(updatePage, 10);
