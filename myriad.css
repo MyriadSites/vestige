@@ -1,0 +1,15 @@
+.icon img {
+    width: 300px;
+    height: 300px;
+    transition: all 0.3s ease;
+    filter: brightness(70%);
+}
+
+#icon:hover img {
+    filter: brightness(100%);
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px #00000099;
+}
+.myriadBody {
+	background-color: #fff;
+}
