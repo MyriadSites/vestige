@@ -11,12 +11,12 @@ body {
 	color: #fff;
 }
 .box {
-	font-size: 1vw;
+	font-size: 2vw;
 	color: #fff;
 	font-family: 'Open Sans', sans-serif;
 }
 #box {
-	width: 5px;
+	width: 3vw;
 }
 .icon img {
     width: 300px;
